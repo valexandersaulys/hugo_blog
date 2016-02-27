@@ -1,0 +1,81 @@
+* {
+    font-family: 'Overpass';
+}
+
+hr {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 0.5px solid #E9E9E9;
+}
+
+/* * * * * * Navigation Bars * * * * * */
+
+.navbar {
+    
+}
+
+#navbar_title {
+    margin-left: 2rem;
+}
+
+
+#categories {
+    display: inline;
+    margin-right: 3rem;
+}
+
+a#category_links {
+    text-decoration: none;
+    color: #5E2575;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+a#category_links:hover {
+    opacity: 0.5;
+}
+
+a.title {
+    text-decoration: none;
+    color: #375900;
+}
+
+/* * * * * Post Data * * * * */
+
+.content {
+    margin: 0 3.5rem;
+}
+
+.p {
+    font-size: 110%;
+}
+
+
+/* * * * * * Footer Data * * * * * */
+
+.footer {
+}
+
+footer.footer_content {
+    margin-left: 3rem;
+}
+
+.footer_icons {
+}
+
+.fi {
+    text-decoration: none;
+    color: #D2655A;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.fi:hover {
+    opacity: 0.75;
+}
+
+/* * * * * * * Homepage * * * * * * */
+
+li.categories:hover {
+    opacity: 0.75;
+}

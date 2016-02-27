@@ -1,3 +1,10 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://blog.saulys.me/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Railroad Boots Blog"
+canonifyurls = true
+
+[params]
+    githublink="https://github.com/valexandersaulys"
+    twitterlink="https://twitter.com/vasaulys"
+    emaillink="mailto:valexandersaulys@gmail.com"
+    resumelink="https://drive.google.com/file/d/0Bw66u28PBgbqTERvT011a1ZHTUU/view"

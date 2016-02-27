@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+<body>
+    {{ partial "navbar.html" . }}
+    <h2 style="margin-left:2rem;">Category: <code>{{ .Title | lower }}</code></h2>
+    <div class="content">
+        {{ range first 1000000 .Data.Pages }}
+            {{ .Render "li" }}
+        {{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+    <!-- Need to incorporate a master list page of some sort-->

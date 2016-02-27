@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 <body>
     {{ partial "navbar.html" . }}
+    <h2>Category {{ .Params.categories }}</h2>
     <div class="content">
         {{ range first 10 .Data.Pages }}
             {{ .Render "summary" }}
@@ -8,4 +9,3 @@
     </div>
     {{ partial "footer.html" . }}
     <!-- Need to incorporate a master list page -->
-    <br>
