@@ -1,6 +1,6 @@
 ---
 title: "Hello Hugo!"
-description: "I'm making a sample page to test this"
+description: "My First Test Page"
 date: "2016-02-26"
 section: "hello"
 categories:
@@ -12,4 +12,4 @@ tags:
   - "first_post"
 ---
 
-Hello! I'm testing this page!
+Hello World! I'm testing this page.

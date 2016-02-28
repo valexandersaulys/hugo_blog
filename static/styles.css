@@ -5,6 +5,8 @@
 hr {
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     border: 0.5px solid #E9E9E9;
 }
 
@@ -27,8 +29,8 @@ hr {
 a#category_links {
     text-decoration: none;
     color: #5E2575;
-    font-weight: bold;
-    font-size: 120%;
+    font-weight: lighter;
+    font-size: 80%;
 }
 
 a#category_links:hover {
@@ -74,8 +76,16 @@ footer.footer_content {
     opacity: 0.75;
 }
 
-/* * * * * * * Homepage * * * * * * */
+/* * * * * * * Index * * * * * * */
 
 li.categories:hover {
     opacity: 0.75;
+}
+
+.subcontent {
+    margin-bottom: 2rem;
+}
+
+.subcontent_title {
+    margin-bottom: 0.5rem;
 }

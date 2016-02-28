@@ -1,4 +1,5 @@
 <article class="post">
-    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+  <div class="subcontent_title"><a href="{{ .Permalink }}"><b>{{ .Title }}</b></a>
+    - <small>{{ .Date.Format "January 2, 2006"}}</small></div>
     {{ .Description }}
 </article>

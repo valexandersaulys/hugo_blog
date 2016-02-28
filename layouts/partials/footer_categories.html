@@ -1,0 +1,10 @@
+<hr>
+<ul>
+    {{ range .Params.categories }}
+    <li id="categories">
+        <a href="/categories/{{ . | urlize }}" id="category_links">
+            {{ . }}
+        </a>
+    </li>
+    {{ end }}
+</ul>

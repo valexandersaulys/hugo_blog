@@ -9,6 +9,19 @@
         </div>
     </div>
     <div class="footer">
+        <hr>
+        <ul>
+            <li id="categories">
+                <b>Other Categories </b>
+            </li>
+            {{ range .Params.categories }}
+            <li id="categories">
+                <a href="/categories/{{ . | urlize }}" id="category_links">
+                    {{ . }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
         {{ partial "footer.html" }}
     </div>
 </body>
